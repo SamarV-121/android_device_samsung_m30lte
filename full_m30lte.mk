@@ -11,9 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/m20lte/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := m20lte
-PRODUCT_NAME := full_m20lte
-PRODUCT_MODEL := SM-M205F
+PRODUCT_DEVICE := m30lte
+PRODUCT_NAME := full_m30lte
+PRODUCT_MODEL := SM-M305F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
@@ -22,5 +22,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 BUILD_FINGERPRINT := "samsung/m20ltedd/m20lte:10/QP1A.190711.020/M205FDDU5CTF2:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=m20ltedd \
+        PRODUCT_NAME=m30ltedd \
         PRIVATE_BUILD_DESC="m20ltedd-user 10 QP1A.190711.020 M205FDDS6CTH4 release-keys"

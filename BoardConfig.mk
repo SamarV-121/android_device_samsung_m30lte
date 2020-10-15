@@ -1,8 +1,8 @@
-DEVICE_PATH := device/samsung/m20lte
+DEVICE_PATH := device/samsung/m30lte
 
 # Kernel
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_CONFIG := m20lte_defconfig
+TARGET_KERNEL_CONFIG := m30lte_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 
